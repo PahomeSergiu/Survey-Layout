@@ -46,6 +46,7 @@ header div div {
     width: 700px;
     height: 400px;
     background-color: white;
+    padding-top: 5px;
 }
 
 footer {
@@ -76,4 +77,26 @@ footer {
 .send-button {
     width: 100px;
     height: 35px;
+}
+
+form div, form p {
+    margin: 15px 0 0 15px;
+    font-size: 15px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-wrapper input {
+    width: 300px;
+    height: 30px;
+    color: #afafaf;
+    border: solid grey 1px;
+    padding-left: 10px;
+}
+
+.email-wrapper label {
+    padding-bottom: 10px;
 }

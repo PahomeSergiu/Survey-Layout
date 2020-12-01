@@ -15,7 +15,32 @@
            <header>
                <div class="steps step-1"><div>Notifications Survey</div></div>
            </header> 
-           <form class="main-container"></form>
+           <form class="main-container">
+               <p>We're working on our notification system to make our product work better.</p>
+               <p>The survey consists in several questions and usually takes 5-7 minutes to complete.</p>
+               <div class="email-wrapper">
+                    <label for="email">Enter your email</label>
+                    <input type="email" id="email" value="Your answer">
+               </div>
+               <div class="board-wrapper">
+                    <p>Are you an admin or a member on our Board?</p>
+                    <input type="radio" id="admin" name="membership" value="admin">
+                    <label for="admin">Admin</label>
+                    <input type="radio" id="member" name="membership" value="member">
+                    <label for="member">Member</label>
+               </div>
+               <div>
+                   <p>How do you collaborate in our Board?</p>
+                   <input type="radio" id="create-edit" name="collaboration" value="create-edit">
+                   <label for="create-edit">Create and edit content</label>
+                   <input type="radio" id="comment" name="collaboration" value="comment">
+                   <label for="comment">Comment and leave comment</label>
+                   <input type="radio" id="review-comment" name="collaboration" value="review-comment">
+                   <label for="review-comment">Just review created comment</label>
+                   <input type="radio" id="other" name="collaboration" value="other">
+                   <label for="other">Other: <input type="text" id="other" name="collaboration" value=""></label>
+               </div>
+           </form>
            <footer>
                <a href="index2.html" class="next-button step-1-btn">NEXT</a>
            </footer>
